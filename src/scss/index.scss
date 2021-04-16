@@ -1,5 +1,33 @@
 @import 'variables.scss';
 
 body {
-    color: turquoise;
+    color: black;
+}
+
+// .checkbox-round {
+//     width: 1.3em;
+//     height: 1.3em;
+//     background-color: white;
+//     border-radius: 10%;
+//     vertical-align: middle;
+//     border: 1px solid rgb(252, 0, 0);
+//     -webkit-appearance: none;
+//     outline: none;
+//     cursor: pointer;
+// }
+
+.rounded{
+    border-radius: 9rem !important;
+    padding: 0.6rem !important;
+}
+
+// input[type="checkbox"]:checked{
+//     .rounded{
+//         background-color: dfefff;
+//     }
+// }
+
+#inlineCheckbox1{
+    border: 1px solid red;
+    border-radius: 10%;
 }
